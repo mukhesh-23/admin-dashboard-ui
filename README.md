@@ -14,15 +14,12 @@ git clone https://github.com/mukhesh-23/admin-dashboard-ui.git
 cd admin-dashboard-ui
 npm install
 npm run dev
-The application will run at:
 
 arduino
-Copy code
 http://localhost:5173
 To create a production build:
 
 bash
-Copy code
 npm run build
 
 Project Workflow (How I Did This Project)
