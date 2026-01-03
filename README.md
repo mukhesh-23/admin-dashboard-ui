@@ -26,8 +26,7 @@ Project Workflow (How I Did This Project)
 Project: Creating
 1. Design Understanding
 First, I began analyzing a design from Figma using Figma Dev Mode.
-This was very informative, as it helped me learn about layout structure, spacing, colors, typographies, and
-The design on Figma was considered the single source of truth.
+This was very informative, as it helped me learn about layout structure, spacing, colors, typographies, spacing, and assets.
 
 2. Project Setup
 To start implementing the project, Vite with React and TypeScript was used. This ensured that development time was fast.
@@ -35,7 +34,7 @@ Tailwind CSS has been selected as it helps in maintaining the styles of the proj
 
 3. Component Planning
 Before any code was written, a breakdown of the UI was completed.
-This made the code organized, clean, and less cumbersome to maintain.
+This made the code organized and clean.
 
 4. Component Development
 Each component was developed separately to match the Figma design almost identically.
