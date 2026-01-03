@@ -68,7 +68,7 @@ Each element has its own directory for greater modularity.
 
 Development Decisions
 
-TypeError wasrected usingTS to get better structuring. React was used.
+TypeScript was used for better structure and type safety, while React was used to create reusable UI components.
 
 Vite is preferred because of faster building and development time.
 Since we could use JavaScript
