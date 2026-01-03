@@ -24,93 +24,73 @@ To create a production build:
 bash
 Copy code
 npm run build
+
 Project Workflow (How I Did This Project)
+Project: Creating
 1. Design Understanding
-I started by analyzing the provided Figma design using Figma Dev Mode.
-This helped me understand layout structure, spacing, colors, typography, and assets.
-The Figma design was treated as the single source of truth.
+First, I began analyzing a design from Figma using Figma Dev Mode.
+This was very informative, as it helped me learn about layout structure, spacing, colors, typographies, and
+The design on Figma was considered the single source of truth.
 
 2. Project Setup
-The project was initialized using Vite with React and TypeScript to ensure fast development and better code structure.
-Tailwind CSS was chosen to maintain consistent styling and match the Figma design accurately.
+To start implementing the project, Vite with React and TypeScript was used. This ensured that development time was fast.
+Tailwind CSS has been selected as it helps in maintaining the styles of the project in a similar manner as designed in Figma.
 
 3. Component Planning
-Before coding, the UI was broken down into small and reusable components.
-This helped keep the code clean, modular, and easy to maintain.
+Before any code was written, a breakdown of the UI was completed.
+This made the code organized, clean, and less cumbersome to maintain.
 
 4. Component Development
-Each component was developed individually to closely match the Figma design.
-Once completed, all components were composed together to form the dashboard layout.
+Each component was developed separately to match the Figma design almost identically.
+After that, all components were finally composed together to form a dashboard layout.
 
 5. Styling Approach
 Tailwind CSS utility classes were used to maintain:
-
 Consistent spacing
-
 Proper typography
-
 Clean and responsive layout
-
 The focus was on UI accuracy and clarity, not on adding unnecessary features.
 
 6. Code Quality & Structure
 Special attention was given to:
-
 Clean folder structure
-
 Meaningful component names
-
 Reusable components
-
 Readable and maintainable code
-
 Components Implemented
+
 The following components were implemented:
-
 Header (Top Navigation)
-
 Footer
-
 Sidebar
-
 Stat Cards
-
 Payment Transactions
-
 Transactions Table
-
 Activity Timeline
 
-Each component is placed in its own folder for better modularity.
+Each element has its own directory for greater modularity.
 
 Development Decisions
-React + TypeScript were used for better structure and type safety.
 
-Vite was chosen for faster build and development experience.
+TypeError wasrected usingTS to get better structuring. React was used.
 
-Tailwind CSS helped maintain a clean and consistent UI.
+Vite is preferred because of faster building and development time.
+Since we could use JavaScript
 
-The focus was kept on UI accuracy rather than building a full dashboard.
+It assisted in keeping the UI component clean in this project through the usage of Tailwind CSS.
 
-Time Taken
-Design analysis & planning: ~1 hour
+The focus was placed on how accurate the UI was, instead of developing a complete dashboard.
 
-Component development & styling: ~4 hours
+Time Spent
+Design analysis & planning: 1 hour
+Component Development & Styling: 4 hours
+Refinement & deployment: 1 hour
+Total time: Around 6 hours
 
-Refinement & deployment: ~1 hour
+Use of AI Tools
+The AI systems were adopted solely to aid in the development process; these include
 
-Total time: Approximately 6 hours
-
-AI Tools Usage
-AI tools were used only to assist the development process, such as:
-
-Clarifying React and Tailwind usage
-
-Speeding up repetitive boilerplate tasks
-
-Debugging build and deployment issues
-
-All UI implementation, component structure, and design decisions were manually done based on the Figma design.
+Improvement in React Skills Improvement in Tailwind Skills Improvement in Build Speed All the build-related issues are now debugged. Every implementation of the UI and designing decisions were done based on the Figma design.
 
 Live Preview (Optional)
 https://admin-dashboard-ui-wib8.vercel.app/
