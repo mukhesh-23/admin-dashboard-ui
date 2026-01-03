@@ -17,13 +17,12 @@ npm run dev
 The application will run at:
 
 arduino
-Copy code
 http://localhost:5173
 To create a production build:
 
 bash
-Copy code
 npm run build
+
 Project Workflow (How I Did This Project)
 1. Design Understanding
 I started by analyzing the provided Figma design using Figma Dev Mode.
